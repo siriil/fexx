@@ -6,14 +6,14 @@ Fuzzing on XXE Blind
 
 Examples
 ```
-▶ cat tmp.txt 
+cat tmp.txt 
 1234
 ```
 
 ### Sub1
 
 ```
-▶ cat tmp.tmp
+cat tmp.tmp
 Nothing
 ```
 
@@ -22,5 +22,5 @@ Nothing
 With Go:
 
 ```
-▶ go install github.com/siriil/fexx@latest
+go install github.com/siriil/fexx@latest
 ```
