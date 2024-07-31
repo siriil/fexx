@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="80%" height=auto src="images/C3.png">
+  <img width="40%" height=auto src="images/C3.png">
   <br>
   <h1 align="center">FEXX - Fuzzing on XXE blind</h1>
   <br>
