@@ -4,22 +4,11 @@ Fuzzing on XXE Blind
 
 ## Usage
 
-Examples
 ```
-cat tmp.txt 
-1234
-```
-
-### Sub1
-
-```
-cat tmp.tmp
-Nothing
+fexx -addr 0.0.0.0 -port 8888
 ```
 
 ## Install
-
-With Go:
 
 ```
 go install github.com/siriil/fexx@latest
